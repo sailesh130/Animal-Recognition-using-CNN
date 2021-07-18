@@ -33,7 +33,7 @@ we should have following package
     
     
     #initiated path variable with datasets locations. 
-    path="/home/rjn/project/dataset/" -> path = 'datasets path'
+    path= 'datasets path'
     
 -2  image_to_array.py
     Pre-processing step
