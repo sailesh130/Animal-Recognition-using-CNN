@@ -31,7 +31,7 @@ we should have following package
     #initiated path variable with datasets locations. 
     path= 'datasets path'
     
-2  image_to_array.py
+2. image_to_array.py
     Pre-processing step
     convert an image into n-dim array for performing some operations such matrix multiplication and addition on it.
     It helps to extract meaningful information from images. 
@@ -47,11 +47,11 @@ we should have following package
     saved train images as train_data_200.npy so that pre-processing of image shouldn’t be done again and again.
     
     
-3  training_cnn.py
+3.  training_cnn.py
     change cnn architecture as u wish
     
-4  after tranning, add the trained model to model folder.
+4.  after tranning, add the trained model to model folder.
 
-5 change the model name in animal_prediction.py
+5. change the model name in animal_prediction.py
 
-6 Run DesktopGUI.py and enjoy the application.
+6. Run DesktopGUI.py and enjoy the application.
