@@ -1,7 +1,7 @@
 # Animal-Recognition-using-CNN
 Animal recognition is one major and important field in object detection.
 
-goal is to identifying the animal in the picture
+Goal is to identifying the animal in the picture
 Uses Deep Learning techniques with convolutional neural network
 Uses large labeled datasets to train the model for solving problem of  animal identification in the images
 
@@ -12,21 +12,17 @@ The dataset classes consist of elegant, deer, cow, sheep, dogs, cat, horse, monk
 there are total  25000 images as dataset
 
 
-
-
 For run this code,
 we should have following package
 
-1.python3
-2.numpy
-3.opencv
-4.keras
-5.sklearn
-6.matplotlib
+    1.python3
+    2.numpy
+    3.opencv
+    4.keras
+    5.sklearn
+    6.matplotlib
 
-#####################################
-
--1. open rename.py
+1. open rename.py \
     To rename images name according to folder if you want.
     it collectly optional or not required
     you need to change below path with your image directory
@@ -35,7 +31,7 @@ we should have following package
     #initiated path variable with datasets locations. 
     path= 'datasets path'
     
--2  image_to_array.py
+2  image_to_array.py
     Pre-processing step
     convert an image into n-dim array for performing some operations such matrix multiplication and addition on it.
     It helps to extract meaningful information from images. 
@@ -51,12 +47,11 @@ we should have following package
     saved train images as train_data_200.npy so that pre-processing of image shouldn’t be done again and again.
     
     
--3  training_cnn.py
+3  training_cnn.py
     change cnn architecture as u wish
     
--4  after tranning, add the trained model to model folder.
+4  after tranning, add the trained model to model folder.
 
--5 change the model name in animal_prediction.py
+5 change the model name in animal_prediction.py
 
--6 Run DesktopGUI.py and enjoy the application.
- 
+6 Run DesktopGUI.py and enjoy the application.
