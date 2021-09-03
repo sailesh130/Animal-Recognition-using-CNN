@@ -57,5 +57,6 @@ we should have following package
 -4  after tranning, add the trained model to model folder.
 
 -5 change the model name in animal_prediction.py
+
 -6 Run DesktopGUI.py and enjoy the application.
  
